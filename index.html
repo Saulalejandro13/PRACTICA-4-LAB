@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hola mundo :D </title>
+    <title>Bienvenido</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef2f7;
+            margin: 0;
+        }
+
+        header {
+            background-color: #244a73;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            box-shadow: 0px 4px 10px gray;
+        }
+
+        .contenedor {
+            width: 80%;
+            margin: 40px auto;
+        }
+
+        .tarjeta {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+
+            border: 2px solid #244a73;
+            border-radius: 10px;
+
+            box-shadow: 0px 5px 12px #aaaaaa;
+        }
+
+        h2 {
+            color: #244a73;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        button {
+            background-color: #244a73;
+            color: white;
+
+            padding: 12px 25px;
+
+            border: none;
+            border-radius: 6px;
+
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #16334f;
+        }
+
+        #zona {
+            background-color: #dcecff;
+
+            border: 2px dashed #244a73;
+
+            padding: 20px;
+
+            text-align: center;
+
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #244a73;
+            color: white;
+
+            text-align: center;
+
+            padding: 15px;
+        }
+    </style>
+
+</head>
+
+
+<body onload="bienvenida()">
+
+<header>
+    <h1>HERNANDEZ GARZA SAUL ALEJANDRO 2226664 ITS J-N1</h1>
+    <h1>HOLA MUNDO</h1>
+    <h1>BIENVENIDO</h1>
+
+    <p>HTML + CSS + JavaScript</p>
+
+</header>
+
+
+<div class="contenedor">
+
+    <div class="tarjeta">
+
+        <h2>Bienvenido</h2>
+
+        <p>
+            Esta página utiliza HTML para la estructura,
+            CSS para el diseño y JavaScript para agregar
+            interactividad.
+        </p>
+
+    </div>
+
+
+    <div class="tarjeta">
+
+        <h2>Mensaje mediante botón</h2>
+
+        <p>
+            Presiona el botón para mostrar un mensaje.
+        </p>
+
+       <button onclick="mensajeBoton()">
+        Mostrar mensaje
+        </button>
+
+    </div>
+
+    </div>
+
+</div>
+
+
+<footer>
+
+    PAGINA WEB INTERACTIVA 
+
+</footer>
+
+
+<script>
+
+    function bienvenida() {
+
+        alert("¡Bienvenido! La página se cargó correctamente.");
+
+    }
+
+
+    let contador = 0;
+
+function mensajeBoton() {
+
+    contador++;
+
+    if (contador == 1) {
+        alert("!presionaste el botón!:D");
+    }
+    else if (contador == 2) {
+        alert("¡lo volviste a presionaar! :D.");
+    }
+    else if (contador == 3) {
+        alert("¡Eemmm por que otra vez?-_-.");
+    }
+    else if (contador == 4) {
+        alert("si vuelves a presionar te voy asustar -_- advertido estas.");
+    }
+    else if (contador == 5) {
+        alert("BUU!!👻👻.");
+    }
+    else {
+        alert("👻👻👻👻👻👻👻👻");
+    }
+
+}
+
+
+</script>
+
+
+</body>
+
+</html>
